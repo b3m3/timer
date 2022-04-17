@@ -171,17 +171,14 @@ button {
   background-color: rgba(250, 250, 250, .6);
 }
 
-.start span:nth-child(2) {
-  position: relative;
-}
 
 .start span:nth-child(2)::after {
   position: absolute;
   content: '';
   width: 2px;
   height: 9px;
-  left:  2px;
-  top: -5px;
+  left:  7px;
+  top: 6px;
   background-color: rgba(250, 250, 250, .6);
 }
 
@@ -190,8 +187,8 @@ button {
   content: '';
   width: 2px;
   height: 9px;
-  right:  2px;
-  top: -5px;
+  right:  7px;
+  top: 6px;
   background-color: rgba(250, 250, 250, .6);
 }
 
