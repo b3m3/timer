@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="b3m3">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./fav.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Timer</title>
+</head>
+
+<body>
+  <div class="app">
+
+    <section class="timer">
+      <h1 class="timer__title">Timer</h1>
+      <div class="timer__box">
+        <div class="timer__counter"><span class="counter-min">00</span>:<span class="counter-sec">00</span></div>
+        <div class="timer__circle circle"></div>
+      </div>
+      <div class="timer__control">
+        <div class="control__inputs">
+          <input class="input-min" type="range" min="0" max="59" step="1" value="0">
+          <input class="input-sec" type="range" min="0" max="59" step="1" value="0">
+        </div>
+        <div class="control__buttons">
+          <button class="stop ban" type="button">
+            <span></span>
+          </button>
+          <button class="start ban" type="button">
+            <span class="start-status start-on"></span>
+            <span class="start-status start-paused hidden"></span>
+          </button>
+        </div>
+      </div>
+      <audio class="signal" src="audio/01.ogg" loop></audio>
+    </section>
+
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
