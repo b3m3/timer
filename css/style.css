@@ -17,7 +17,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1.15);
   }
   100% {
     transform: scale(1);
@@ -52,7 +52,7 @@ input[type="range"] {
   appearance: none;
   background: transparent;
   cursor: pointer;
-  max-width: 6rem;
+  max-width: 7rem;
   height: 2px;
   transition: .3s ease;
 }
@@ -67,11 +67,12 @@ input[type="range"]::-moz-range-track {
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  margin-top: -5px;
-  background-color: #ffffff;
-  height: 12px;
-  width: 4px;
-  border-radius: 1px;
+  margin-top: -9px;
+  border: 1px solid rgba(196, 196, 196, 0.6);
+  background-color: #250c4e;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
 }
 
 button {

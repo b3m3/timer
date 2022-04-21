@@ -88,7 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
         interval = setInterval(startCountdown, 1000);
         inputsRange.forEach(input => input.classList.add('ban'));
         seconds = (+min.textContent * 60 + (+sec.textContent));
-        console.log(seconds);
       } else {
         pixels = 0;
         total = 0;
